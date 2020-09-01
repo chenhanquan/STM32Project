@@ -1,9 +1,13 @@
 This file is used to test the way of building branch
 
-git branch [branch name]    build the branch
+git branch [branch name]    //创建分支
 
-git branch -v    see all branch
+git branch -v    //查看本地分支
 
-git checkout [branch name]    switch to branch which you want to modify or merge
+git branch -a    //查看所有分支情况（本地和远程仓库）
 
-git merge [branch name]
+git checkout [branch name]    //切换分支
+
+git merge [branch name]    //合并分支
+
+git pull origin [branch name]    //将分支同步到远程仓库
