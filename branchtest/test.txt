@@ -1,0 +1,9 @@
+This file is used to test the way of building branch
+
+git branch [branch name]    build the branch
+
+git branch -v    see all branch
+
+git checkout [branch name]    switch to branch which you want to modify or merge
+
+git merge [branch name]
